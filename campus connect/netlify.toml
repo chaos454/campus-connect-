@@ -1,0 +1,14 @@
+# Official TanStack Start on Netlify
+# https://docs.netlify.com/build/frameworks/framework-setup-guides/tanstack-start/
+
+[build]
+  command = "npm run build"
+  publish = "dist/client"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
+  port = 3000
